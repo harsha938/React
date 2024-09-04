@@ -6,9 +6,9 @@ import './App.css'
 function App() {
   const [color,setColor] = useState('olive')
 
-  function changeColor(color) {
-    setColor(color)
-  }
+  // function changeColor(color) {
+  //   setColor(color)
+  // }
   return (
     <>
       <div className='w-full h-screen duration-200' style={ {backgroundColor: color }}>
